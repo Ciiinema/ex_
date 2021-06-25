@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+body {
+    background-color: hsla(0, 0%, 95%);
+}
+
+.container {
+    width: 850px;
+    height: 450px;
+    margin: 150px auto;
+    display: flex;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: Big Shoulders Display;
+    color: hsla(0, 0%, 95%);
+}
+p {
+    font-family: Lexend Deca;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+#div1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+#div2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+
+#div3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.container a {
+    margin-top: 110px;
+    display: block;
+    border: 1px solid hsla(0, 0%, 95%);
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    width: 65%;
+    height: 30px;
+    font-family: Lexend Deca;
+    padding-top: 10px ;
+}
+#b1 {
+    background-color: hsla(0, 0%, 95%); 
+    color: hsl(31, 77%, 52%);
+}
+#b1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 95%);
+}
+#b2 {
+    background-color: hsla(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+}
+#b2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 95%);
+}
+#b3 {
+    background-color: hsla(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+}
+#b3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 95%);
+}
+
+.attribution {
+    text-align: center;
+    font-family: Lexend Deca;
+}
+.attribution a, .attribution a:visited {
+    text-decoration: none;
+    color: gray;
+}
+.attribution a:hover {
+    text-decoration: underline;
+}
